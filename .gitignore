@@ -1,6 +1,10 @@
 # Node Modules
 node_modules/
 
+# Firebase Configuration 
+
+firebase.config 
+
 # Build and Distribution
 dist/
 
