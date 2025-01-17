@@ -1,0 +1,67 @@
+# Node Modules
+node_modules/
+
+# Build and Distribution
+dist/
+
+# Environment Files
+.env
+.env.local
+.env.development
+.env.development.local
+.env.production
+.env.production.local
+
+# Logs and Temp Files
+*.log
+*.tmp
+tmp/
+*.swp
+.DS_Store # macOS Finder metadata
+Thumbs.db # Windows thumbnail cache
+
+# Dependency Managers
+package-lock.json # Only if you are using yarn
+yarn.lock # Only if you are using npm
+pnpm-lock.yaml # Only if you are using pnpm
+
+# IDE and Editor Specific
+.idea/ # IntelliJ IDEA
+.vscode/ # VS Code
+*.suo
+*.user
+*.bak
+*.swp
+*~
+.history/
+
+# Coverage Reports
+coverage/
+
+# Vite Specific
+.vite/
+dist/ # Already included above, but worth reiterating for Vite projects
+build/ # Sometimes used as an alternative build directory
+
+# Optional: If you have a specific secret file or directory
+secrets/
+my_secret_file.key
+
+# Optional: If you use a database locally (e.g., MongoDB)
+data/ # Local database files (be VERY careful with this one)
+
+# Optional: If you have compiled binaries
+*.exe
+*.dll
+*.o
+*.pyc # Python compiled files
+
+# Optional: If you use specific testing tools
+.nyc_output/
+.cache/
+
+# Optional: If you use docker
+.dockerignore
+
+# Optional: If you use turbo
+.turbo/
